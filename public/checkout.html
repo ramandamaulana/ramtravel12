@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>RamTravel</title>
+	<link rel="stylesheet" type="text/css" href="frontend/libraries/bootstrap/css/bootstrap.css">
+	<link rel="stylesheet" href="frontend/libraries/xzoom/xzoom.css">
+	<link rel="stylesheet" href="frontend/libraries/gijgo/css/gijgo.min.css">
+	<link
+		href="https://fonts.googleapis.com/css?family=Assistant:200,300,400,600,700,800|Playfair+Display:400,400i,700,700i,900,900i&display=swap"
+		rel="stylesheet">
+	<link rel="stylesheet" href="frontend/styles/style.css">
+
+</head>
+
+<body>
+	<!-- navbar -->
+	<div class="container">
+		<nav class="row navbar navbar-expand-lg navbar-light bg-white">
+			<div class="navbar-nav ml-auto mr-auto mr-sm-auto mr-lg-0 mr-md-auto">
+				<a href="index.html" class="navbar-brand">
+					<img src="/frontend/images/hehe.png" alt="">
+				</a>
+			</div>
+			<ul class="navbar-nav mr-auto d-none d-lg-block">
+				<li>
+					<span class="text-muted">
+						| &nbsp; Beyond the explorer and the world
+					</span>
+				</li>
+			</ul>
+		</nav>
+	</div>
+
+	<main>
+		<section class="section-details-header"></section>
+		<section class="section-details-content">
+			<div class="container">
+				<div class="row">
+					<div class="col p-0">
+						<nav>
+							<ol class="breadcrumb">
+								<li class="breadcrumb-item">
+									Paket Travel
+								</li>
+								<li class="breadcrumb-item">
+									Details
+								</li>
+								<li class="breadcrumb-item active">
+									Check out
+								</li>
+							</ol>
+						</nav>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-8 pt-lg-0">
+						<div class="card card-details">
+							<h1>Who is Going</h1>
+							<p>
+								Trip to Universal studio,singapura
+							</p>
+							<div class="attendee">
+								<table class="table table-responsive-sm text-center">
+									<thead>
+										<tr>
+											<td>
+												Picture
+											</td>
+											<td>
+												Name
+											</td>
+											<td>
+												Nationality
+											</td>
+											<td>
+												Visa
+											</td>
+											<td>
+												Passport
+											</td>
+											<td>
+
+											</td>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td><img src="/frontend/images/member/member1.png" height="60">
+											</td>
+											<td class="align-middle">
+												Cristine
+											</td>
+											<td class="align-middle">
+												INA
+											</td>
+											<td class="align-middle">
+												N/A
+											</td>
+											<td class="align-middle">
+												Active
+											</td>
+											<td class="align-middle">
+												<img src="/frontend/images/member/ic_remove2.png">
+											</td>
+										</tr>
+										<tr>
+											<td><img src="/frontend/images/member/member1.png" height="60">
+											</td>
+											<td class="align-middle">
+												Cristine
+											</td>
+											<td class="align-middle">
+												INA
+											</td>
+											<td class="align-middle">
+												30 Days
+											</td>
+											<td class="align-middle">
+												Active
+											</td>
+											<td class="align-middle">
+												<img src="/frontend/images/member/ic_remove2.png">
+											</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+							<div class="member mt-3">
+								<h2>Add Member</h2>
+								<form class="form-inline">
+									<label for="inputUsername" class="sr-only">
+										Name
+									</label>
+									<input type="text" class="form-control mb-2 mr-sm-2" name="inputusername"
+										placeholder="Username">
+									<label for="inputVisa" class="sr-only">
+										Visa
+									</label>
+									<select name="inputVisa" id="inputVisa" class="custom-select mb-2 mr-sm-2">
+										<option value="visa">Visa</option>
+										<option value="30 Days">30 Days</option>
+										<option value="N/A">N/A</option>
+									</select>
+									<label for="doePassport" class="src-only"></label>
+									<div class="input-group mb-2 mr-sm-4">
+										<input type="text" class="form-control datepicker" id="doePassport"
+											placeholder="DOE Passport">
+									</div>
+									<button type="submit" class="btn btn-add-now mb-2 mr-3 px-4">
+										Add Now
+									</button>
+								</form>
+								<h3 class="mt-2 mb-0">
+									Note
+									<p class="disclaimer mb-0">
+										you are going the best
+									</p>
+								</h3>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4">
+						<div class="card card-details card-right">
+							<h2>Checkout information</h2>
+							<table class="trip-informations">
+								<tr>
+									<th width="50%">Members</th>
+									<td width="50%" class="text-right"> &nbsp; &nbsp;2 Person</td>
+								</tr>
+								<tr>
+									<th width="50%">Visa</th>
+									<td width="50%" class="text-right"> &nbsp; &nbsp;$120,00</td>
+								</tr>
+								<tr>
+									<th width="50%">Trip price</th>
+									<td width="50%" class="text-right"> &nbsp; &nbsp; $80,00 / Person</td>
+								</tr>
+								<tr>
+									<th width="50%">Subtotal
+									</th>
+									<td width="50%" class="text-right"> &nbsp; &nbsp;$300,00</td>
+								</tr>
+								<tr>
+									<th width="50%">Total
+									</th>
+									<td width="50% " class="text-right text-total"> <span class="text-blue">
+											&nbsp;$279,</span>
+										<span class="text-orange"> 33</span></td>
+								</tr>
+							</table>
+							<hr>
+							<h2>Payment instructions</h2>
+							<p class="payment-instruction">Please complete your payment</p>
+							<div class="bank">
+								<div class="bank-item pb-3">
+									<img src="/frontend/icon/ic_bank.png" alt="" class="bank-image">
+									<div class="description">
+										<h3>PT.Ram Travel</h3>
+										<p>
+											08882 9051 8571
+
+											<br>
+											Bank Rakyat Indonesia
+										</p>
+										<div class="clearfix"></div>
+									</div>
+								</div>
+							</div>
+							<div class="bank-item pb-3">
+								<img src="/frontend/icon/ic_bank.png" alt="" class="bank-image">
+								<div class="description">
+									<h3>PT.Ram Travel</h3>
+									<p>
+										08882 9051 8571
+
+										<br>
+										Bank Rakyat Indonesia
+									</p>
+									<div class="clearfix"></div>
+								</div>
+							</div>
+							<div class="join-container">
+								<a href="#" class="btn btn-block btn-join-now mt-3 py-2">Join Now</a>
+							</div>
+						</div>
+						<div class="text-center mt-3">
+							<a href="#" class="text-muted">Cancel Booking</a></div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+
+	<footer class="section-footer mt-5 mb-4 border-top">
+		<div class="container pt-5 pb-5">
+			<div class="row justify-content-center">
+				<div class="col-12">
+					<div class="row">
+						<div class="col-12 col-lg-3">
+							<h5>FEATURES</h5>
+							<ul class="list-unstyled">
+								<li><a href="#">Reviews</a></li>
+								<li><a href="#">Comunity</a></li>
+								<li><a href="#">Social Media Kit</a></li>
+								<li><a href="#">Affliate</a></li>
+							</ul>
+						</div>
+						<div class="col-12 col-lg-3">
+							<h5>Account</h5>
+							<ul class="list-unstyled">
+								<li><a href="#">Refund</a></li>
+								<li><a href="#">Security</a></li>
+								<li><a href="#">Reward</a></li>
+							</ul>
+						</div>
+						<div class="col-12 col-lg-3">
+							<h5>Company</h5>
+							<ul class="list-unstyled">
+								<li><a href="#">Career</a></li>
+								<li><a href="#">Help Center</a></li>
+								<li><a href="#">Media</a></li>
+							</ul>
+						</div>
+						<div class="col-12 col-lg-3">
+							<h5>Get Connected</h5>
+							<ul class="list-unstyled">
+								<li><a href="#">Bogor</a></li>
+								<li><a href="#">Indonesia</a></li>
+								<li><a href="#">0882-9051-8571</a></li>
+								<li><a href="#">Admin@ramtravel.com</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container-fluid">
+			<div class="row border-top justify-content-center align-items-center pt-4">
+				<div class="col-auto text-gray-500 font-weight-light">
+					2020 Copyright RamTravel . All rights reserved . Made in Bogor
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<script src="frontend/libraries/jquery/jquery-3.4.1.min.js"></script>
+	<script src="frontend/libraries/bootstrap/js/bootstrap.js"></script>
+	<script src="frontend/libraries/retina/retina.min.js"></script>
+	<script src="frontend/libraries/xzoom/xzoom.min.js"></script>
+	<script src="/frontend/libraries/gijgo/js/gijgo.min.js"></script>
+	<script>
+		$(document).ready(function () {
+			$('.xzoom,.xzoom-gallery').xzoom({
+				zoomwidth: 500,
+				title: false,
+				tint: '#333',
+				xoffset: 15
+			});
+			$('.datepicker').datepicker({
+				uilibrary: 'bootstrap4',
+				icons: {
+					rightIcon: '<img src="/frontend/images/ic_doe.png"/>'
+				}
+			});
+		});
+	</script>
+</body>
+
+</html>
